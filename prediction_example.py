@@ -10,8 +10,8 @@ project_id = 'projectid'
 model_id = 'modelid'
 
 # Change names if necessary
-data_name = 'Tableau Prep Data ' + str(datetime.datetime.now)
-prediction_name = 'Tableau Prep Prediction ' + str(datetime.datetime.now)
+data_name = 'Tableau Prep Data ' + str(datetime.datetime.now())
+prediction_name = 'Tableau Prep Prediction ' + str(datetime.datetime.now())
 
 
 user = forecastflow.User(email, password)
