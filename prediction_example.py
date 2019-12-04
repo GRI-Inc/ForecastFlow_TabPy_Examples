@@ -4,14 +4,14 @@ from forecastflow.tabpy_support import make_prediction_schema
 import datetime
 
 # Fill your own parameters
-email = 'name@example.com'
-password = 'password'
-project_id = 'projectid'
-model_id = 'modelid'
+email = "name@example.com"
+password = "password"
+project_id = "projectid"
+model_id = "modelid"
 
 # Change names if necessary
-data_name = 'Tableau Prep Data ' + str(datetime.datetime.now())
-prediction_name = 'Tableau Prep Prediction ' + str(datetime.datetime.now())
+data_name = "Tableau Prep Data " + str(datetime.datetime.now())
+prediction_name = "Tableau Prep Prediction " + str(datetime.datetime.now())
 
 
 user = forecastflow.User(email, password)
