@@ -1,7 +1,7 @@
 # Read the blog (Japanese) to figure out how to use this script.
 # https://gri-blog.hatenablog.com/entry/2019/12/09/162019
 import forecastflow
-from forecastflow.tabpy_support import make_prediction_schema
+from forecastflow.satellite.tableau.prep import make_prediction_schema
 import datetime
 
 # ============================================================================
